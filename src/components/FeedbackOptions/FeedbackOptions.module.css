@@ -1,0 +1,25 @@
+.list {
+    list-style: none;
+
+    display: flex;
+    gap: 15px;
+}
+
+.button {
+    background-color: transparent;
+
+    padding: 5px 10px;
+
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.button:hover {
+    cursor: pointer;
+
+    border: 1px solid transparent;
+}
+
+.button:hover {
+    background-color: rgba(68, 149, 206, 0.314);
+}
